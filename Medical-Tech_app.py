@@ -1153,7 +1153,7 @@ def main():
                 <div style="border: 1px solid #11ccf5; padding: 10px; margin-bottom: 10px; font-size: 1.2em; color: #333;">
                     <p><strong style="font-size: 1.4em;">Sekilas Tentang Saya</strong></p>
                     <p style="text-align: justify;">
-                        Saya Miko Ardian, seorang ilmuwan data junior dengan minat yang kuat dalam analisis dan pemodelan data untuk menghasilkan wawasan dan keputusan bisnis. Saya memiliki pengalaman dalam beberapa proyek seperti analisis big data, komunikasi data melalui dasbor, pembelajaran mesin, dan statistik. Saya selalu mengambil inisiatif dalam kelompok, menunjukkan disiplin, dan melaksanakan tugas dengan pendekatan yang terstruktur. Selain itu, saya memiliki keterampilan komunikasi yang sangat baik dan senang berkembang dalam lingkungan kerja tim yang kolaboratif.                   </p>
+                        Saya Miko Ardian, seorang Junior Data Scientist dengan minat yang kuat dalam analisis dan pemodelan data untuk menghasilkan wawasan dan keputusan bisnis. Saya memiliki pengalaman dalam beberapa proyek seperti analisis big data, komunikasi data melalui dasbor, pembelajaran mesin, dan statistik. Saya selalu mengambil inisiatif dalam kelompok, menunjukkan disiplin, dan melaksanakan tugas dengan pendekatan yang terstruktur. Selain itu, saya memiliki keterampilan komunikasi yang sangat baik dan senang berkembang dalam lingkungan kerja tim yang kolaboratif.                   </p>
                 </div>
                 """,
                 unsafe_allow_html=True
@@ -1209,9 +1209,6 @@ def main():
                     <p><strong style="font-size: 1.4em;">Ilustrasi Algoritma CNN (Convolutional Neural Network)</strong></p>
                     <p style="text-align: justify;">
                     CNN (Convolutional Neural Network) adalah tipe jaringan saraf yang dirancang khusus untuk mengolah data berbentuk grid atau spatial data, seperti gambar. CNN mampu mengenali pola visual seperti tepi, tekstur, dan bentuk dengan cara yang sangat mirip dengan bagaimana otak manusia mengidentifikasi objek. CNN bekerja dengan menggunakan Convolutional Layer yaitu mengekstrak fitur dari data input yang digunakan, Pooling Layer yaitu lapisan pooling yang berfungsi untuk mengurangi dimensi data dan Fully Connected Layer yang bertindak sebagai klasifikasi untuk memetakan fitur yang ditemukan ke output akhir.
-                </p>
-                <p style="text-align: justify;">
-                    Langkah selanjutnya yaitu membangun arsitektur model dengan menambah layer-layer yang dibutuhkan. Setelah itu data pelatihan dimasukkan dalam model yang sudah dibangun. Langkah terakhir yaitu evaluasi model untuk menilai seberapa baik model dalam sisi akurasi, presisi dan recall. Apabila model sudah dianggap baik, maka model tersebut diunduh serta dikembangkan ke dalam website.
                 </p>
                 <div style="text-align: center; margin-top: 15px;">
                     <!-- Mengubah ukuran gambar dengan width 70% dan height auto -->
@@ -1278,10 +1275,6 @@ def main():
             """.format(get_base64_of_bin_file("User Activity.png")),
             unsafe_allow_html=True
         )
-
-
-
-
 
 
 def get_base64_of_bin_file(bin_file):
