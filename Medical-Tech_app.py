@@ -191,7 +191,7 @@ def main():
                 <div style="text-align: justify; font-size: 1.2em; line-height: 1.6; color: #333; margin-bottom: 15px;">
                     <p>
                         Dibawah ini merupakan beberapa sampel dataset audio pernafasan yang dapat diunduh untuk kemudian dicoba pada sistem prediksi jika kemungkinan Anda tidak memiliki data pernafasan. Pilih dan unduh data audio dalam format .wav berikut:
-                    </p>
+
                 </div>
             """,
             unsafe_allow_html=True
@@ -1153,8 +1153,7 @@ def main():
                 <div style="border: 1px solid #11ccf5; padding: 10px; margin-bottom: 10px; font-size: 1.2em; color: #333;">
                     <p><strong style="font-size: 1.4em;">Sekilas Tentang Saya</strong></p>
                     <p style="text-align: justify;">
-                        I'm Miko Ardian, as a data science junior with a strong interest in data analysis and modeling to produce insights and business decisions. I have experience in several projects such as big data analysis, data communication via dashboards, machine learning, and statistics. I always take the initiative in groups, show discipline, and carry out tasks with a structured approach. Additionally, I have excellent communication skills and enjoy thriving in a collaborative teamwork environment.</p>
-                   </p>
+                        Saya Miko Ardian, seorang ilmuwan data junior dengan minat yang kuat dalam analisis dan pemodelan data untuk menghasilkan wawasan dan keputusan bisnis. Saya memiliki pengalaman dalam beberapa proyek seperti analisis big data, komunikasi data melalui dasbor, pembelajaran mesin, dan statistik. Saya selalu mengambil inisiatif dalam kelompok, menunjukkan disiplin, dan melaksanakan tugas dengan pendekatan yang terstruktur. Selain itu, saya memiliki keterampilan komunikasi yang sangat baik dan senang berkembang dalam lingkungan kerja tim yang kolaboratif.                   </p>
                 </div>
                 """,
                 unsafe_allow_html=True
@@ -1209,15 +1208,17 @@ def main():
                 <div style="border: 1px solid #11ccf5; padding: 10px; margin-bottom: 10px; font-size: 1.2em; color: #333;">
                     <p><strong style="font-size: 1.4em;">Ilustrasi Algoritma CNN (Convolutional Neural Network)</strong></p>
                     <p style="text-align: justify;">
-                        CNN (Convolutional Neural Network) adalah tipe jaringan saraf yang dirancang khusus untuk mengolah data berbentuk grid atau spatial data, seperti gambar. CNN mampu mengenali pola visual seperti tepi, tekstur, dan bentuk dengan cara yang sangat mirip dengan bagaimana otak manusia mengidentifikasi objek. CNN bekerja dengan menggunakan Convolutional Layer yaitu mengekstrak fitur dari data input yang digunakan, Pooling Layer yaitu lapisan pooling yang berfungsi untuk mengurangi dimensi data dan Fully Connected Layer yang bertindak sebagai klasifikasi untuk memetakan fitur yang ditemukan ke output akhir.
-                    </p>
-                    <div style="text-align: center; margin-top: 10px;">
-                        <a href="https://pemrogramanmatlab.com/wp-content/uploads/2023/07/3-figure1-1-edited.png" target="_blank">
-                            <img src="https://pemrogramanmatlab.com/wp-content/uploads/2023/07/3-figure1-1-edited.png" alt="Ilustrasi CNN" style="width: 80%; height: auto; border-radius: 5px;">
-                        </a>
-                    </div>
+                    CNN (Convolutional Neural Network) adalah tipe jaringan saraf yang dirancang khusus untuk mengolah data berbentuk grid atau spatial data, seperti gambar. CNN mampu mengenali pola visual seperti tepi, tekstur, dan bentuk dengan cara yang sangat mirip dengan bagaimana otak manusia mengidentifikasi objek. CNN bekerja dengan menggunakan Convolutional Layer yaitu mengekstrak fitur dari data input yang digunakan, Pooling Layer yaitu lapisan pooling yang berfungsi untuk mengurangi dimensi data dan Fully Connected Layer yang bertindak sebagai klasifikasi untuk memetakan fitur yang ditemukan ke output akhir.
+                </p>
+                <p style="text-align: justify;">
+                    Langkah selanjutnya yaitu membangun arsitektur model dengan menambah layer-layer yang dibutuhkan. Setelah itu data pelatihan dimasukkan dalam model yang sudah dibangun. Langkah terakhir yaitu evaluasi model untuk menilai seberapa baik model dalam sisi akurasi, presisi dan recall. Apabila model sudah dianggap baik, maka model tersebut diunduh serta dikembangkan ke dalam website.
+                </p>
+                <div style="text-align: center; margin-top: 15px;">
+                    <!-- Mengubah ukuran gambar dengan width 70% dan height auto -->
+                    <img src="data:image/png;base64,{}" style="width: 70%; height: auto;">
                 </div>
-                """,
+            </div>
+            """.format(get_base64_of_bin_file("ILUSTRASI CNN.png")),
                 unsafe_allow_html=True
             )
 
@@ -1226,17 +1227,16 @@ def main():
             st.markdown(
                 """
                 <div style="border: 1px solid #11ccf5; padding: 10px; margin-bottom: 10px; font-size: 1.2em; color: #333;">
-                    <p><strong style="font-size: 1.4em;">Ilustrasi Algoritma GRU Gated Recurrent Unit</strong></p>
-                    <p style="text-align: justify;">
+                <p><strong style="font-size: 1.4em;">Ilustrasi Algoritma GRU Gated Recurrent Unit</strong></p>
+                <p style="text-align: justify;">
                         Gated Recurrent Unit (GRU) adalah tipe dari Recurrent Neural Network (RNN) yang dirancang untuk menangani data sekuensial dan memiliki mekanisme gate (pintu) yang mengontrol aliran informasi, sehingga membantu model untuk menangani dependensi temporal (seperti urutan waktu) dengan lebih baik. GRU bekerja dengan menggunakan mekanisme 2 gate yaitu Update Gate dan Reset Gate. Reset Gate mengatur seberapa banyak informasi dari waktu sebelumnya yang perlu dihapus sedangkan Update Gate menentukan seberapa banyak informasi dari waktu sebelumnya yang perlu disimpan.    </p>
-                    </p>
-                    <div style="text-align: center; margin-top: 10px;">
-                        <a href="https://www.researchgate.net/publication/370551218/figure/fig1/AS:11431281155996504@1683308130825/Gambar-4-Arsitektur-Gated-Recurrent-Units.png" target="_blank">
-                            <img src="https://www.researchgate.net/publication/370551218/figure/fig1/AS:11431281155996504@1683308130825/Gambar-4-Arsitektur-Gated-Recurrent-Units.png" alt="Ilustrasi CNN" style="width: 80%; height: auto; border-radius: 5px;">
-                        </a>
-                    </div>
+                </p>
+                <div style="text-align: center; margin-top: 15px;">
+                    <!-- Mengubah ukuran gambar dengan width 70% dan height auto -->
+                    <img src="data:image/png;base64,{}" style="width: 70%; height: auto;">
                 </div>
-                """,
+            </div>
+            """.format(get_base64_of_bin_file("ILUSTRASI GRU.png")),
                 unsafe_allow_html=True
             )
 
