@@ -191,8 +191,9 @@ def main():
                 <div style="text-align: justify; font-size: 1.2em; line-height: 1.6; color: #333; margin-bottom: 15px;">
                     <p>
                         Dibawah ini merupakan beberapa sampel dataset audio pernafasan yang dapat diunduh untuk kemudian dicoba pada sistem prediksi jika kemungkinan Anda tidak memiliki data pernafasan. Pilih dan unduh data audio dalam format .wav berikut:
-
+                    </p>
                 </div>
+            </div>
             """,
             unsafe_allow_html=True
         )
